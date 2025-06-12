@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: AUSBUSHFIRE
+    schema: BRONZE
+    tables:
+      - name: raw_fire_modis_archive
+      - name: raw_fire_viirs_archive
+      - name: raw_fire_modis_nrt
+      - name: raw_fire_viirs_nrt
