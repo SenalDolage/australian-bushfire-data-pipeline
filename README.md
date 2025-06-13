@@ -6,9 +6,9 @@ The project transforms raw MODIS and VIIRS (satellite types) fire detection data
 The pipeline was designed using an ELT (Extract -> Load -> Transform) pattern and follows modern data engineering practices.
 
 
-## Architecture
+## Architecture Overview
 
-
+[![architecture-drawio.png](https://i.postimg.cc/g0xGTPxF/architecture-drawio.png)](https://postimg.cc/CZVyRXCm)
 
 ## Steps Taken
 
@@ -49,14 +49,14 @@ The dataset is published on Kaggle (https://www.kaggle.com/datasets/nagarajbhat/
 -   VIIRS NRT (near real-time detections)
 
 
-### Using the starter project
+## Using the starter project
 
 Try running the following commands:
 - dbt run
 - dbt test
 
 
-### Resources:
+## Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
